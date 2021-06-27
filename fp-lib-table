@@ -1,0 +1,5 @@
+(fp_lib_table
+  (lib (name Socket_Arduino_Mega)(type KiCad)(uri "$(KIPRJMOD)/Socket_Arduino_Mega.pretty")(options "")(descr ""))
+  (lib (name Connector)(type KiCad)(uri ${KIPRJMOD}/Connector.pretty)(options "")(descr ""))
+  (lib (name Motor_Driver)(type KiCad)(uri ${KIPRJMOD}/Motor_Driver.pretty)(options "")(descr ""))
+)
