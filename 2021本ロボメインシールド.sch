@@ -1278,26 +1278,24 @@ Text GLabel 9800 4650 1    50   Input ~ 0
 IN_B4
 Text GLabel 9900 4650 1    50   Input ~ 0
 IN_A4
-Text GLabel 8900 3500 0    50   Input ~ 0
-SS1
 Text GLabel 8900 3400 0    50   Input ~ 0
-SS2
+SS1
 Text GLabel 8900 3150 0    50   Input ~ 0
-SS3
+SS2
 Text GLabel 8900 3050 0    50   Input ~ 0
-SS4
+SS3
 Text GLabel 8900 2950 0    50   Input ~ 0
-SS5
+SS4
 Text GLabel 8900 2850 0    50   Input ~ 0
-SS6
+SS5
 Text GLabel 8900 2750 0    50   Input ~ 0
-SS7
+SS6
 Text GLabel 8900 2650 0    50   Input ~ 0
-SS8
+SS7
 Text GLabel 8900 2550 0    50   Input ~ 0
-SS9
+SS8
 Text GLabel 8900 2450 0    50   Input ~ 0
-SS10
+SS9
 $Comp
 L Connector_Generic:Conn_01x03 POWER_SUPPLY1
 U 1 1 60FF8E5B
@@ -2289,55 +2287,6 @@ F 3 "" H 7000 4250 50  0001 C CNN
 	1    7000 4250
 	1    0    0    -1  
 $EndComp
-$Comp
-L Connector_Generic:Conn_02x05_Odd_Even STEP_SPI10
-U 1 1 60F1FE52
-P 7650 4400
-F 0 "STEP_SPI10" H 7700 4817 50  0000 C CNN
-F 1 "Conn_02x05_Odd_Even" H 7700 4726 50  0000 C CNN
-F 2 "Connector_IDC:IDC-Header_2x05_P2.54mm_Vertical" H 7650 4400 50  0001 C CNN
-F 3 "~" H 7650 4400 50  0001 C CNN
-	1    7650 4400
-	1    0    0    -1  
-$EndComp
-Text GLabel 7450 4500 0    50   Input ~ 0
-SS10
-Text GLabel 7950 4400 2    50   Input ~ 0
-MOSI
-Text GLabel 7450 4400 0    50   Input ~ 0
-SCK
-Text GLabel 7450 4300 0    50   Input ~ 0
-MISO
-Wire Wire Line
-	7950 4500 8100 4500
-Wire Wire Line
-	8100 4500 8100 4550
-$Comp
-L power:GND #PWR0119
-U 1 1 60F1FE5E
-P 8100 4550
-F 0 "#PWR0119" H 8100 4300 50  0001 C CNN
-F 1 "GND" H 8105 4377 50  0000 C CNN
-F 2 "" H 8100 4550 50  0001 C CNN
-F 3 "" H 8100 4550 50  0001 C CNN
-	1    8100 4550
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7950 4300 8100 4300
-Wire Wire Line
-	8100 4300 8100 4250
-$Comp
-L power:+5V #PWR0120
-U 1 1 60F1FE66
-P 8100 4250
-F 0 "#PWR0120" H 8100 4100 50  0001 C CNN
-F 1 "+5V" H 8115 4423 50  0000 C CNN
-F 2 "" H 8100 4250 50  0001 C CNN
-F 3 "" H 8100 4250 50  0001 C CNN
-	1    8100 4250
-	1    0    0    -1  
-$EndComp
 Text GLabel 5250 4400 0    50   Input ~ 0
 SCK
 Text GLabel 5250 4300 0    50   Input ~ 0
@@ -2348,4 +2297,40 @@ Text GLabel 10500 5650 3    50   Input ~ 0
 GP4P3_1
 Wire Notes Line
 	11200 6050 8350 6050
+Text GLabel 850  3200 0    50   Input ~ 0
+BUSY1
+Text GLabel 1900 3200 0    50   Input ~ 0
+BUSY2
+Text GLabel 3000 3200 0    50   Input ~ 0
+BUSY3
+Text GLabel 4100 3200 0    50   Input ~ 0
+BUSY4
+Text GLabel 5200 3200 0    50   Input ~ 0
+BUSY5
+Text GLabel 6300 3200 0    50   Input ~ 0
+BUSY6
+Text GLabel 7400 3200 0    50   Input ~ 0
+BUSY7
+Text GLabel 5250 4200 0    50   Input ~ 0
+BUSY8
+Text GLabel 6350 4200 0    50   Input ~ 0
+BUSY9
+Text GLabel 8900 3500 0    50   Input ~ 0
+BUSY1
+Text GLabel 8900 3600 0    50   Input ~ 0
+BUSY2
+Text GLabel 8900 3800 0    50   Input ~ 0
+BUSY4
+Text GLabel 8900 4000 0    50   Input ~ 0
+BUSY6
+Text GLabel 8900 3900 0    50   Input ~ 0
+BUSY5
+Text GLabel 8900 4100 0    50   Input ~ 0
+BUSY7
+Text GLabel 8900 3700 0    50   Input ~ 0
+BUSY3
+Text GLabel 9200 4650 1    50   Input ~ 0
+BUSY8
+Text GLabel 9300 4650 1    50   Input ~ 0
+BUSY9
 $EndSCHEMATC

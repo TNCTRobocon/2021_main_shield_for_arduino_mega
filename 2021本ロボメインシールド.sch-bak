@@ -1230,11 +1230,11 @@ Text GLabel 1400 6700 0    50   Input ~ 0
 DO2
 Text GLabel 1400 6800 0    50   Input ~ 0
 DO3
-Text GLabel 9700 4650 1    50   Input ~ 0
+Text GLabel 9500 4650 1    50   Input ~ 0
 DO1
 Text GLabel 9600 4650 1    50   Input ~ 0
 DO2
-Text GLabel 9500 4650 1    50   Input ~ 0
+Text GLabel 9700 4650 1    50   Input ~ 0
 DO3
 Text GLabel 10750 1850 2    50   Input ~ 0
 MPWM1
